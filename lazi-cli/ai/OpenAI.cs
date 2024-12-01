@@ -9,7 +9,7 @@ using Microsoft.SemanticKernel.Connectors.OpenAI;
 public class OpenAICompletion
 {
     // Populate values from your OpenAI deployment
-    private readonly string modelId = "gpt-4";
+    private readonly string modelId = "gpt-4o";
     private readonly string apiKey = Environment.GetEnvironmentVariable("OPENAPI_KEY")!;
     private readonly IChatCompletionService chatCompletionService;
     private readonly ChatHistory history;

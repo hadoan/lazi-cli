@@ -12,15 +12,15 @@ https://github.com/microsoft/semantic-kernel
 ### Set OPENAI_KEY environment
 **CMD**
 
-set OPENAI_KEY=your_key
+set OPENAPI_KEY=your_key
 
 **Windows PowerShell**
 
-$env:OPENAI_KEY="your_key"
+$env:OPENAPI_KEY="your_key"
 
 **Linux/macOS Terminal**
 
-export OPENAI_KEY=your_key
+export OPENAPI_KEY=your_key
 
 ## Ask ChatGPT and run command
  dotnet run "how to use clit to list all containers in k8s"
