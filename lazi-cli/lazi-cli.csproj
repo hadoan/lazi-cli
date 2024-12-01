@@ -8,4 +8,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="CliFx" Version="2.3.5" />
+  </ItemGroup>
+
 </Project>
